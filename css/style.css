@@ -1,0 +1,70 @@
+
+body {
+    background-color: #1b1e23;
+}
+
+main {
+    margin-top: 70px;
+}
+
+.box {
+    display: grid;
+    padding: 10px;
+    justify-content: center;
+    grid-template-columns: 25% 50% 25%;
+    
+}
+
+
+.infos {
+    background-color: #fff;
+    border-radius: 10px;
+    display: grid;
+    padding: 10px;
+    justify-content: center;
+    grid-template-columns: 10% 80% 10%;
+    box-shadow: 7px 5px 5px #8A63BF;
+}
+
+.meio {
+    padding: 10px;
+
+}
+
+
+
+.volta {
+    padding: 10%;
+}
+
+.back {
+  font-family: "Noto Sans", sans-serif;
+  width: 83px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: transparent;
+  border-color: #8A63BF;
+  border-radius: 10px;
+  transition: all 300ms ease-out;
+
+}
+
+.back:hover{
+  width: 85px;
+  height: 44px;
+  border-color: #63BF7A;
+  }
+
+  .name {
+    font-size: 40px;
+    font-weight: 700;
+    color: #8A63BF;
+    margin-left: 25%;
+}
+
+  .pokemon {
+    padding-left: 15%;
+    width: 500px;
+    filter: drop-shadow(10px 7px 10px #8A63BF);
+  }
