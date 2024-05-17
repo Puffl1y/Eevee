@@ -15,8 +15,67 @@ main {
     
 }
 
+.infos1 {
+  background-color: #fff;
+  border-radius: 10px;
+  display: grid;
+  padding: 10px;
+  justify-content: center;
+  grid-template-columns: 10% 80% 10%;
+  box-shadow: 7px 5px 5px #ee4545;
+}
 
-.infos {
+.infos2 {
+  background-color: #fff;
+  border-radius: 10px;
+  display: grid;
+  padding: 10px;
+  justify-content: center;
+  grid-template-columns: 10% 80% 10%;
+  box-shadow: 7px 5px 5px #72c8f1;
+}
+
+.infos3 {
+  background-color: #fff;
+  border-radius: 10px;
+  display: grid;
+  padding: 10px;
+  justify-content: center;
+  grid-template-columns: 10% 80% 10%;
+  box-shadow: 7px 5px 5px #5ced73;
+}
+
+.infos4 {
+  background-color: #fff;
+  border-radius: 10px;
+  display: grid;
+  padding: 10px;
+  justify-content: center;
+  grid-template-columns: 10% 80% 10%;
+  box-shadow: 7px 5px 5px #f8da45;
+}
+
+.infos5 {
+  background-color: #fff;
+  border-radius: 10px;
+  display: grid;
+  padding: 10px;
+  justify-content: center;
+  grid-template-columns: 10% 80% 10%;
+  box-shadow: 7px 5px 5px #bf9563;
+}
+
+.infos6 {
+  background-color: #fff;
+  border-radius: 10px;
+  display: grid;
+  padding: 10px;
+  justify-content: center;
+  grid-template-columns: 10% 80% 10%;
+  box-shadow: 7px 5px 5px #1167b1;
+}
+
+.infos7 {
     background-color: #fff;
     border-radius: 10px;
     display: grid;
@@ -24,6 +83,26 @@ main {
     justify-content: center;
     grid-template-columns: 10% 80% 10%;
     box-shadow: 7px 5px 5px #8A63BF;
+}
+
+.infos8 {
+  background-color: #fff;
+  border-radius: 10px;
+  display: grid;
+  padding: 10px;
+  justify-content: center;
+  grid-template-columns: 10% 80% 10%;
+  box-shadow: 7px 5px 5px #ff5aa4;
+}
+
+.infos9 {
+  background-color: #fff;
+  border-radius: 10px;
+  display: grid;
+  padding: 10px;
+  justify-content: center;
+  grid-template-columns: 10% 80% 10%;
+  box-shadow: 7px 5px 5px #302f30;
 }
 
 .meio {
@@ -47,7 +126,6 @@ main {
   border-color: #8A63BF;
   border-radius: 10px;
   transition: all 300ms ease-out;
-
 }
 
 .back:hover{
@@ -59,12 +137,60 @@ main {
   .name {
     font-size: 40px;
     font-weight: 700;
-    color: #8A63BF;
+    color: #6383bf;
     margin-left: 25%;
 }
 
-  .pokemon {
+.flareon {
+  padding-left: 15%;
+  width: 500px;
+  filter: drop-shadow(10px 7px 10px #ee4545);
+}
+
+.vaporeon {
+  padding-left: 15%;
+  width: 500px;
+  filter: drop-shadow(10px 7px 10px #72c8f1);
+}
+
+.leafeon {
+  padding-left: 15%;
+  width: 500px;
+  filter: drop-shadow(10px 7px 10px #5ced73);
+}
+
+.jolteon {
+  padding-left: 15%;
+  width: 500px;
+  filter: drop-shadow(10px 7px 10px #f8da45);
+}
+
+.eevee {
+  padding-left: 15%;
+  width: 500px;
+  filter: drop-shadow(10px 7px 10px #bf9563);
+}
+
+.glaceon {
+  padding-left: 5%;
+  width: 500px;
+  filter: drop-shadow(10px 7px 10px #1167b1);
+}
+
+  .espeon {
     padding-left: 15%;
     width: 500px;
     filter: drop-shadow(10px 7px 10px #8A63BF);
+  }
+
+  .sylveon {
+    padding-left: 10%;
+    width: 500px;
+    filter: drop-shadow(10px 7px 10px #ff5aa4);
+  }
+
+  .umbreon {
+    padding-left: 10%;
+    width: 500px;
+    filter: drop-shadow(10px 7px 10px #302f30);
   }
