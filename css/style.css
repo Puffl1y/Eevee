@@ -107,7 +107,7 @@ main {
 
 .meio {
     padding: 10px;
-
+    
 }
 
 
@@ -137,7 +137,7 @@ main {
   .name {
     font-size: 40px;
     font-weight: 700;
-    color: #6383bf;
+    color: #484d50;
     margin-left: 25%;
 }
 
@@ -194,3 +194,32 @@ main {
     width: 500px;
     filter: drop-shadow(10px 7px 10px #302f30);
   }
+
+.type {
+  padding: 10px;
+}
+
+
+.fighting {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+.normal {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #484d50;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.weaknesses {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #ff6400;
+  border-radius: 10px;
+  width: 200px;
+}
