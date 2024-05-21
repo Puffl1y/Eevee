@@ -209,6 +209,7 @@ main {
   grid-template-columns: 50% 50%;
   font-size: 25px;
   font-family: "Press Start 2P", system-ui;
+  padding: 10px;
 }
 
 .normal {
@@ -290,6 +291,7 @@ main {
   border-radius: 10px;
   width: 150px;
   font-size: 20px;
+  
 }
 
 .ground {
@@ -389,4 +391,63 @@ main {
 
 p {
   margin: 5px;
+}
+
+
+
+.abilities {
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #30A7D7;
+}
+
+.status {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+  font-family: "Press Start 2P", system-ui;
+  padding: 10px;
+}
+
+.sos {
+  display: flex;
+  margin-top: 50px;
+  
+}
+
+.first {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 25px;
+}
+
+.left {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  bottom: 45px;
+  position: fixed;
+  transition: all 0.5s;
+}
+
+.right {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  bottom: 45px;
+  position: fixed;
+  padding-left: 25px;
+  transition: all 0.5s;
+  
+}
+
+.left:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.right:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  cursor: pointer;
 }
