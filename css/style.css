@@ -15,7 +15,7 @@ main {
     padding: 10px;
     justify-content: center;
     grid-template-columns: 25% 50% 25%;
-    
+
 }
 
 .infos1 {
@@ -176,7 +176,7 @@ main {
 }
 
 .glaceon {
-  padding-left: 5%;
+  padding-left: 15%;
   width: 500px;
   filter: drop-shadow(10px 7px 10px #1167b1);
 }
