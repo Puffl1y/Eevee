@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
-
-=======
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
->>>>>>> 42ed4c0df6a200c71f65a4819ea6bcdbe855a2db
 
 body {
   background-color: #1b1e23;
@@ -142,16 +137,10 @@ main {
   }
 
   .name {
-<<<<<<< HEAD
-    font-family: "Pixelify Sans", sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-=======
     display: flex;
     justify-content: center;
     font-family: "Press Start 2P", system-ui;
     font-size: 30px;
->>>>>>> 42ed4c0df6a200c71f65a4819ea6bcdbe855a2db
     color: #484d50;
     
 }
@@ -211,24 +200,18 @@ main {
   }
 
 .type {
-  padding: 10px;
+  display: flex;
+  padding: 3px;
+  
 }
 
 
-<<<<<<< HEAD
-.fighting {
-  font-family: "Pixelify Sans", sans-serif;
-  display: flex;
-  justify-content: space-between;
-  font-size: 30px;
-=======
 .version {
   display: grid;
   grid-template-columns: 50% 50%;
   font-size: 25px;
   font-family: "Press Start 2P", system-ui;
   padding: 10px;
->>>>>>> 42ed4c0df6a200c71f65a4819ea6bcdbe855a2db
 }
 
 .normal {
