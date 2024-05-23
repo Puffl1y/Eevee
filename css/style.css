@@ -176,7 +176,7 @@ main {
 }
 
 .glaceon {
-  padding-left: 15%;
+  padding-left: 8%;
   width: 500px;
   filter: drop-shadow(10px 7px 10px #1167b1);
 }
@@ -426,8 +426,8 @@ p {
   display: flex;
   width: 50px;
   height: 50px;
-  bottom: 45px;
-  position: fixed;
+  position: relative;
+  margin-top: 122dvh;
   transition: all 0.5s;
 }
 
@@ -435,11 +435,10 @@ p {
   display: flex;
   width: 50px;
   height: 50px;
-  bottom: 45px;
-  position: fixed;
-  padding-left: 25px;
+  position: relative;
+  padding-left: 15px;
+  margin-top: 119dvh;
   transition: all 0.5s;
-  
 }
 
 .left:hover {
